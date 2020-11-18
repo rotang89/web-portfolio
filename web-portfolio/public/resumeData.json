@@ -1,0 +1,140 @@
+{
+  "main": {
+    "name":"Johnny Tang",
+    "occupation":"software engineer",
+    "description":"Welcome to my website",
+    "image":"profilepic.jpg",
+    "bio":"Ever since I was young, I was always passionate about thinking of cool products and building them. It was definitely no accident when I started my career as a mechanical engineer working in the automotive industry. I recently transitioned to be a software engineer after seeing how quickly the tech industry was moving and I didn't want to miss out in being a part of it. Additionally, I realized how much I genuinely like coding. I enjoy finding unique solutions to solve modern problemsand as a software engineer, I'm grateful of the idea of being a forever student while continuously growing my skills every day.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "email.john.e@gmail.com",
+    "phone": "(734) 709-3675",
+    "address":{
+      "city":"Fremont",
+      "state":"CA",
+      "zip": "94536"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/sn0rlax",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/rotang89/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/jonathan-tang-/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/rotang89",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Hack Reactor",
+        "degree":"Software Engineering Immersive Program",
+        "graduated":"2020",
+        "description":"I attended Hack Reactor because of it's reputation as one of the top-rated coding bootcamps respected by many companies in the tech industry. Here I learned many of the most widely-used technologies and frameworks and ultimately gained the skills to develop production grade, highly-scalable full-stack web applications "
+      },
+      {
+        "school":"University of Michigan",
+        "degree":"Mechanical Engineering",
+        "graduated":"2013",
+        "description":"I completed my Bachelors in Mechanical Engineering at the Univeristy of Michigan. My duration here as an undergrad student greatly prepped me with all the tecnical skills and work ethic that allowed me to achieve my success in my mechanical engineering career"
+      }
+    ],
+    "work":[
+      {
+        "company":"Nissan",
+        "title":"Mechanical Engineer - Value Engineering",
+        "years":"2017 - 2019",
+        "description":"Managed engineering optimization projects for some of Nissan's top selling vehicles, through identifying, validating, and driving cost reduction engineering changes from concept to adoption."
+      },
+      {
+        "company":"Optimal Inc",
+        "title":"Mechanical Engineer - CAE",
+        "years":"2013 - 2017",
+        "description":"I was responsible for performing full vehicle reverse engineering and conducting computer-aided analysis to develop the entire product engineering process, from design to testing and planning phase of manufacturing."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"Illustrator",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"VueJs",
+        "level":"50%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Whats For Dinner",
+        "category":"Fun modern way to disocover local restaurants that fit your taste",
+        "image":"WhatsForDinner.gif",
+        "url":"https://github.com/rotang89/Lookun"
+      },
+      {
+        "title":"TKOut",
+        "category":"Review and make reservations at your favorite restaurants",
+        "image":"TKOut.gif",
+        "url":"https://github.com/TKOut-HRSF130/bookings-service"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Jonathan is an excellent team player, with strong technical knowledge and problem-solving skills. He was always ahead of deadlines and quick to offer support to teammates when they were in need. His passion for algorithms, ability to quickly learn new technologies and great debugging skills contributed greatly to the success of the project. I would highly recommend him to any team looking for an awesome engineer!"
+      },
+      {
+        "text":"In working with Jonathan on a system design project, what impresses me the most about him is his ability to quickly pick up new technologies as well as his willingness to take on responsibility for difficult tasks. He has a strong technical foundation and an efficient and logical approach when it comes to problem solving and debugging issues. Jonathan contributed greatly to the success of this project and was very devoted on delivering quality results within the tight deadlines! It was a pleasure to work with Jonathan and I would highly recommend him to any team looking for a bright and dedicated software engineer! "
+      }
+    ]
+  }
+}
