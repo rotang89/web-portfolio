@@ -5,7 +5,7 @@
     "description":"Welcome to my website",
     "image":"profilepic.jpg",
     "bio":"Ever since I was young, I was always passionate about thinking of cool products and building them. It was definitely no accident when I started my career as a mechanical engineer working in the automotive industry. I recently transitioned to be a software engineer after seeing how quickly the tech industry was moving and I didn't want to miss out in being a part of it. Additionally, I realized how much I genuinely like coding. I enjoy finding unique solutions to solve modern problemsand as a software engineer, I'm grateful of the idea of being a forever student while continuously growing my skills every day.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"Use the form below and shoot me an email if you'd like to contact me!",
     "email": "email.john.e@gmail.com",
     "phone": "(734) 709-3675",
     "address":{
@@ -13,8 +13,6 @@
       "state":"CA",
       "zip": "94536"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
     "social":[
       {
         "name":"facebook",
@@ -35,6 +33,11 @@
         "name":"github",
         "url":"https://github.com/rotang89",
         "className":"fa fa-github"
+      },
+      {
+        "name":"email",
+        "url":"mailto:email.john.e@gmail.com?subject=From%20Johnny's%20portfolio%20page",
+        "className":"fa fa-envelope"
       }
     ]
   },
@@ -67,36 +70,6 @@
         "years":"2013 - 2017",
         "description":"I was responsible for performing full vehicle reverse engineering and conducting computer-aided analysis to develop the entire product engineering process, from design to testing and planning phase of manufacturing."
       }
-    ],
-    "skills":[
-      {
-        "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
-      }
     ]
   },
   "portfolio":{
@@ -114,27 +87,59 @@
         "url":"https://github.com/TKOut-HRSF130/bookings-service"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"MunchM",
+        "category":"System design project to horizontally scale website to handle 1000 request per second and 50M business records",
+        "image":"MunchM.png",
+        "url":"https://github.com/munchm/people-also-viewed"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Current website",
+        "category":"Personal webpage to showcase resume, projects and personal information",
+        "image":"JT.png",
+        "url":"https://github.com/rotang89/web-portfolio/tree/main/web-portfolio"
       }
     ]
   },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"Jonathan is an excellent team player, with strong technical knowledge and problem-solving skills. He was always ahead of deadlines and quick to offer support to teammates when they were in need. His passion for algorithms, ability to quickly learn new technologies and great debugging skills contributed greatly to the success of the project. I would highly recommend him to any team looking for an awesome engineer!"
-      },
-      {
-        "text":"In working with Jonathan on a system design project, what impresses me the most about him is his ability to quickly pick up new technologies as well as his willingness to take on responsibility for difficult tasks. He has a strong technical foundation and an efficient and logical approach when it comes to problem solving and debugging issues. Jonathan contributed greatly to the success of this project and was very devoted on delivering quality results within the tight deadlines! It was a pleasure to work with Jonathan and I would highly recommend him to any team looking for a bright and dedicated software engineer! "
-      }
-    ]
-  }
+  "skills": [
+    {
+      "name": "React",
+      "image": "react.svg"
+    },
+    {
+      "name": "Node.js",
+      "image": "nodejslogo.png"
+    },
+    {
+      "name": "PostgreSQL",
+      "image": "postgresqllogo.png"
+    },
+    {
+      "name": "GraphQL",
+      "image": "graphql.png"
+    },
+    {
+      "name": "Heroku",
+      "image": "heroku.png"
+    },
+    {
+      "name": "Docker",
+      "image": "Docker.png"
+    },
+    {
+      "name": "Webpack",
+      "image": "Webpack.png"
+    },
+    {
+      "name": "MongoDB",
+      "image": "Mongo.png"
+    },
+    {
+      "name": "AWS",
+      "image": "aws-logo.png"
+    },
+    {
+      "name": "Redux",
+      "image": "redux.png"
+    }
+  ]
 }

@@ -4,10 +4,7 @@ class Header extends Component {
   render() {
 
     if(this.props.data){
-      var name = this.props.data.name;
-      var occupation= this.props.data.occupation;
-      var description= this.props.data.description;
-      var city= this.props.data.address.city;
+
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url} target="_blank" rel="noreferrer"><i className={network.className}></i></a></li>
       })
@@ -26,16 +23,14 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
 
       </nav>
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">Hello, I'm</h1>
-            <h1 className="responsive-headline" style={{color: "blue"}}>{name}</h1>
-            <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
+            <h1 className="responsive-headline" >WELCOME TO MY SITE</h1>
+            <h3><span>I'm Johnny Tang, a software engineer living in the San Francisco Bay Area. Scroll down to learn more about me.</span></h3>
             <ul className="social">
                {networks}
             </ul>
