@@ -10,5 +10,5 @@ app.use(bodyParser.json())
 app.use(express.static('build'));
 
 
-app.listen(4000);
-console.log('listening at port 4000')
+app.listen(80);
+console.log('listening at port 80')
