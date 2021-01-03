@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+
 
 export const Card = styled.div `
   display: inline-block;
@@ -12,9 +13,19 @@ export const Card = styled.div `
 `
 
 export const Thumbnail = styled.img `
-  height: 350px;
+  height: 360px;
   object-fit: cover;
   cursor: pointer;
+  overflow: hidden;
+  transition: transform .5s;
+  &:hover {
+      transform: scale(1.1);
+    }
+`
+
+export const ImgContainer = styled.div `
+  height: 360px;
+  overflow: hidden;
 `
 
 export const Container = styled.div `

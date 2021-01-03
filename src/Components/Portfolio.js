@@ -6,7 +6,8 @@ import {
   Card,
   Thumbnail,
   Container,
-  Wrapper
+  Wrapper,
+  ImgContainer
 } from './PortfolioElements.js'
 
 const Portfolio = (props) => {
@@ -28,12 +29,14 @@ const Portfolio = (props) => {
       var projectImage = 'images/portfolio/'+projects.image;
       return  (<Card key={projects.title}>
           <div className="item-wrap">
+            <ImgContainer>
               <Thumbnail alt={projects.title} src={projectImage} onClick={handleModal}/>
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                <h2 className="portfolio-item">{projects.title}</h2>
-                </div>
+            </ImgContainer>
+            <div className="overlay">
+              <div className="portfolio-item-meta">
+              <h2 className="portfolio-item">{projects.title}</h2>
               </div>
+            </div>
         </div>
       </Card>
       )})
@@ -49,7 +52,8 @@ const Portfolio = (props) => {
           autoPlaySpeed={5000}
           centerMode={false}
           className=""
-          containerClass="container-with-dots"
+          containerClass="container"
+          customDot={false}
           dotListClass=""
           draggable
           focusOnSelect={false}
