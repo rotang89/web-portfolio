@@ -48,13 +48,15 @@ export const resumeData = {
         "school":"Hack Reactor",
         "degree":"Software Engineering Immersive Program",
         "graduated":"2020",
-        "description":"I attended Hack Reactor because of it's reputation as one of the top-rated coding bootcamps respected by many companies in the tech industry. Here I learned many of the most widely-used technologies and frameworks and ultimately gained the skills to develop production grade, highly-scalable full-stack web applications "
+        "description":"I attended Hack Reactor because of it's reputation as one of the top-rated coding bootcamps respected by many companies in the tech industry. Here I learned many of the most widely-used technologies and frameworks and ultimately gained the skills to develop production grade, highly-scalable full-stack web applications ",
+        "logo":"hack_reactor.png"
       },
       {
         "school":"University of Michigan",
         "degree":"Mechanical Engineering",
         "graduated":"2013",
-        "description":"I completed my Bachelors in Mechanical Engineering at the Univeristy of Michigan. My duration here as an undergrad student greatly prepped me with all the tecnical skills and work ethic that allowed me to achieve my success in my mechanical engineering career"
+        "description":"I completed my Bachelors in Mechanical Engineering at the Univeristy of Michigan. My duration here as an undergrad student greatly prepped me with all the tecnical skills and work ethic that allowed me to achieve my success in my mechanical engineering career",
+        "logo":"michigan.jpg"
       }
     ],
     "work":[
@@ -62,13 +64,15 @@ export const resumeData = {
         "company":"Nissan",
         "title":"Mechanical Engineer - Value Engineering",
         "years":"2017 - 2019",
-        "description":"Managed engineering optimization projects for some of Nissan's top selling vehicles, through identifying, validating, and driving cost reduction engineering changes from concept to adoption."
+        "description":"Managed engineering optimization projects for some of Nissan's top selling vehicles, through identifying, validating, and driving cost reduction engineering changes from concept to adoption.",
+        "logo":"Nissan.png"
       },
       {
         "company":"Optimal Inc",
         "title":"Mechanical Engineer - CAE",
         "years":"2013 - 2017",
-        "description":"I was responsible for performing full vehicle reverse engineering and conducting computer-aided analysis to develop the entire product engineering process, from design to testing and planning phase of manufacturing."
+        "description":"I was responsible for performing full vehicle reverse engineering and conducting computer-aided analysis to develop the entire product engineering process, from design to testing and planning phase of manufacturing.",
+        "logo":"optimal.jpg"
       }
     ]
   },
