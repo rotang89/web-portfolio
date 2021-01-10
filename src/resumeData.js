@@ -79,6 +79,13 @@ export const resumeData = {
   "portfolio":{
     "projects": [
       {
+        "title":"Immies Jellies",
+        "category":"E-commerce website for local small business selling edible coconut jelly art. Full-stack web application designed for both desktop and mobile browsers. Uses firebase authenticaion for user sign-in and stripe API for checkout feature",
+        "image":"ImmiesJellies.png",
+        "url":"https://github.com/rotang89/Immies-Jellies",
+        "tech": ["Node.js", "React", "Redux", "Firebase", "PostgreSQL", "Webpack"]
+      },
+      {
         "title":"Whats For Dinner",
         "category":"Fun modern way to disocover local restaurants. Full-stack web application built with React and PostgreSQL. Utilizes unique suggestion algorithm to determine nearby restaurants that most closely fits a users taste. Uses Google Maps and Yelp API.",
         "image":"WhatsForDinner.gif",
