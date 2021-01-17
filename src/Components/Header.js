@@ -1,4 +1,16 @@
 import React, { Component } from 'react';
+import Carousel from "react-multi-carousel";
+import styled from 'styled-components';
+import "react-multi-carousel/lib/styles.css";
+
+const Description = styled.div `
+   text-transform: uppercase;
+   color: white;
+   font-size: 36px;
+   line-height: 150%;
+   font-family: Andale Mono, monospace;
+   font-weight: bold;
+`
 
 class Header extends Component {
   render() {
@@ -29,9 +41,36 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline" >WELCOME TO MY SITE</h1>
-            <h3><span>I'm Johnny Tang, a software engineer living in the San Francisco Bay Area. Scroll down to learn more about me.</span></h3>
-            <ul className="social">
+            <h2 style={{color: "gray"}}>————— Hello, I'm —————</h2>
+            <h1 className="responsive-headline" >Johnny Tang</h1>
+            <h2 style={{color: "gray"}}>I AM</h2>
+            <div style={{height: "60px"}}>
+               <Carousel
+                  responsive={{
+                     all: {
+                        breakpoint: {max: 4000, min: 0 },
+                        items: 1
+                     }
+                  }}
+                  infinite={true}
+                  additionalTransfrom={0}
+                  arrows={false}
+                  autoPlay
+                  autoPlaySpeed={2500}
+                  centerMode={false}
+                  renderButtonGroupOutside={false}
+                  renderDotsOutside={false}
+                  showDots={false}
+                  containerClass="carousel-container"
+                  >
+                  <Description>A michigan native</Description>
+                  <Description>living in the Bay Area</Description>
+                  <Description>A Fullstack Software Engineer</Description>
+                  <Description>An outdoor enthusiast</Description>
+                  <Description>You're next hire?</Description>
+               </Carousel>;
+            </div>
+            <ul className="social" >
                {networks}
             </ul>
          </div>
