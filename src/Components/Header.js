@@ -67,7 +67,7 @@ class Header extends Component {
                   <Description>living in the Bay Area</Description>
                   <Description>A Fullstack Software Engineer</Description>
                   <Description>An outdoor enthusiast</Description>
-                  <Description>You're next hire?</Description>
+                  <Description>Your next hire?</Description>
                </Carousel>;
             </div>
             <ul className="social" >
