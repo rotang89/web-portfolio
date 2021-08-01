@@ -61,6 +61,13 @@ export const resumeData = {
     ],
     "work":[
       {
+        "company":"LaborChart",
+        "title":"Software Engineer",
+        "years":"2021 - Present",
+        "description":"Built highly-scalable features and enhancements on LaborChart's core workforce management product. Responsible for contributions across the entire tech stack from database queries, to server endpoints, to front-end components",
+        "logo":"labor_chart.png"
+      },
+      {
         "company":"Nissan",
         "title":"Mechanical Engineer - Value Engineering",
         "years":"2017 - 2019",
@@ -132,6 +139,18 @@ export const resumeData = {
       "image": "react.svg"
     },
     {
+      "name": "Knockout",
+      "image": "knockout.png"
+    },
+    {
+      "name": "Express",
+      "image": "express.png"
+    },
+    {
+      "name": "Restify",
+      "image": "restify.png"
+    },
+    {
       "name": "Redux",
       "image": "redux.png"
     },
@@ -146,6 +165,10 @@ export const resumeData = {
     {
       "name": "MySQL",
       "image": "mysql.png"
+    },
+    {
+      "name": "Rethinkdb",
+      "image": "rethinkdb.png"
     },
     {
       "name": "GraphQL",
