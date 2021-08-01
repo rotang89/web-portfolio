@@ -139,6 +139,18 @@ export const resumeData = {
       "image": "react.svg"
     },
     {
+      "name": "Knockout",
+      "image": "knockout.png"
+    },
+    {
+      "name": "Express",
+      "image": "express.png"
+    },
+    {
+      "name": "Restify",
+      "image": "restify.png"
+    },
+    {
       "name": "Redux",
       "image": "redux.png"
     },
@@ -153,6 +165,10 @@ export const resumeData = {
     {
       "name": "MySQL",
       "image": "mysql.png"
+    },
+    {
+      "name": "Rethinkdb",
+      "image": "rethinkdb.png"
     },
     {
       "name": "GraphQL",
