@@ -64,7 +64,7 @@ class Header extends Component {
                   containerClass="carousel-container"
                   >
                   <Description>A michigan native</Description>
-                  <Description>living in the Bay Area</Description>
+                  <Description>Living in Kansas City</Description>
                   <Description>A Fullstack Software Engineer</Description>
                   <Description>An outdoor enthusiast</Description>
                </Carousel>;
