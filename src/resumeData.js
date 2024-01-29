@@ -61,10 +61,17 @@ export const resumeData = {
     ],
     "work":[
       {
+        "company":"Amazon",
+        "title":"Software Engineer",
+        "years":"2022 - Present",
+        "description":"Backend engineer for the Amazon Connect service, a cloud-based contact center solution. Contributed to features and infrastructure, spanning code contribution, system design, and deployment",
+        "logo":"AMZN.png"
+      },
+      {
         "company":"Procore",
         "title":"Software Engineer",
         "years":"2021 - 2022",
-        "description":"Built highly-scalable features and enhancements on LaborChart's core workforce management product. Responsible for contributions across the entire tech stack from database queries, to server endpoints, to front-end components",
+        "description":"Built highly-scalable features and enhancements on Procore's core workforce management product. Responsible for contributions across the entire tech stack from database queries, to server endpoints, to front-end components",
         "logo":"PCOR.png"
       },
       {
