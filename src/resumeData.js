@@ -61,11 +61,11 @@ export const resumeData = {
     ],
     "work":[
       {
-        "company":"LaborChart",
+        "company":"Procore",
         "title":"Software Engineer",
-        "years":"2021 - Present",
+        "years":"2021 - 2022",
         "description":"Built highly-scalable features and enhancements on LaborChart's core workforce management product. Responsible for contributions across the entire tech stack from database queries, to server endpoints, to front-end components",
-        "logo":"labor_chart.png"
+        "logo":"PCOR.png"
       },
       {
         "company":"Nissan",
